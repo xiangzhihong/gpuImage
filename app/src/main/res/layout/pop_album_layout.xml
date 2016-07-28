@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:background="@drawable/diary_pop_bg"
+    android:padding="6dp">
+
+    <LinearLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/list_album"
+            android:layout_alignRight="@+id/list_album"
+            android:background="@color/c12">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:text="选择相册"
+                android:textColor="@color/c7"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/iv_pop_cancel"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentRight="true"
+                android:padding="4dp"
+                android:src="@drawable/icon_crop_cancel" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_below="@+id/top_layout"
+            android:background="@color/c3" />
+
+        <ListView
+            android:id="@+id/list_album"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/diver"
+            android:divider="@color/c3"
+            android:dividerHeight="1px"
+            android:scrollbars="none" />
+    </LinearLayout>
+</RelativeLayout>

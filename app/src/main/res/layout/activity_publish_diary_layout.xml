@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+
+    >
+
+    <com.xzh.gpuimage_master.view.CommonDiaryActionBar
+        android:id="@+id/action_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cancel_name="放弃"
+        app:confirm_name="发布"
+        app:title_name="写笔记咯~" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <com.xzh.gpuimage_master.view.FixedGridView
+                    android:id="@+id/pictures"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/c12"
+                    android:horizontalSpacing="15dp"
+                    android:numColumns="3"
+                    android:padding="10dp"
+                    android:verticalSpacing="15dp" />
+
+                <com.xzh.gpuimage_master.view.ScrollEditText
+                    android:id="@+id/direction"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:hint="分享淘到的好货~"
+                    android:maxHeight="200dp"
+                    android:maxLength="5000"
+                    android:minHeight="100dp"
+                    android:padding="10dp"
+                    android:textColor="@color/c7"
+                    android:textColorHint="@color/c4"
+                    android:textSize="14sp" />
+
+                <View
+                    style="@style/horizontal_line"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/c12"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:id="@+id/iv_location"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:scaleType="centerInside"
+                        android:src="@drawable/icon_diary_location" />
+
+                    <TextView
+                        android:id="@+id/note_location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:text="定位"
+                        android:textColor="@color/c7"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/location_label"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:hint="国家-城市"
+                        android:maxLines="32"
+                        android:singleLine="true"
+                        android:textColor="@color/c5"
+                        android:textColorHint="@color/c5"
+                        android:textSize="12sp" />
+
+                    <CheckBox
+                        android:id="@+id/location_switch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/location_icon_selector" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+        <com.xzh.gpuimage_master.view.ProgressWheel
+            android:id="@+id/upload_loading"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            app:matProg_barColor="@color/c9"
+            app:matProg_fillRadius="true"
+            app:matProg_progressIndeterminate="true" />
+    </FrameLayout>
+
+</LinearLayout>

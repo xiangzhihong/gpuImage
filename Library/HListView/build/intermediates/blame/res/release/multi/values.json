@@ -1,0 +1,164 @@
+[
+    {
+        "outputFile": "D:\\android\\studio_work\\GpuImage-master\\Library\\HListView\\build\\intermediates\\res\\merged\\release\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 59,
+                    "endOffset": 110
+                },
+                "from": {
+                    "file": "D:\\android\\studio_work\\GpuImage-master\\Library\\HListView\\src\\main\\res\\values\\hlv_attrs.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 109,
+                        "endColumn": 57,
+                        "endOffset": 165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 115,
+                    "endColumn": 65,
+                    "endOffset": 176
+                },
+                "from": {
+                    "file": "D:\\android\\studio_work\\GpuImage-master\\Library\\HListView\\src\\main\\res\\values\\hlv_attrs.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 1,
+                        "startOffset": 234,
+                        "endColumn": 63,
+                        "endOffset": 296
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 181,
+                    "endColumn": 64,
+                    "endOffset": 241
+                },
+                "from": {
+                    "file": "D:\\android\\studio_work\\GpuImage-master\\Library\\HListView\\src\\main\\res\\values\\hlv_attrs.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 1,
+                        "startOffset": 168,
+                        "endColumn": 62,
+                        "endOffset": 229
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 246,
+                    "endColumn": 55,
+                    "endOffset": 297
+                },
+                "from": {
+                    "file": "D:\\android\\studio_work\\GpuImage-master\\Library\\HListView\\src\\main\\res\\values\\hlv_attrs.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 1,
+                        "startOffset": 54,
+                        "endColumn": 53,
+                        "endOffset": 106
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "D:\\android\\studio_work\\Seller\\Library\\Libs\\HListView\\build\\intermediates\\res\\merged\\release\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 59,
+                    "endOffset": 110
+                },
+                "from": {
+                    "file": "D:\\android\\studio_work\\Seller\\Library\\Libs\\HListView\\src\\main\\res\\values\\hlv_attrs.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 1,
+                        "startOffset": 109,
+                        "endColumn": 57,
+                        "endOffset": 165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 115,
+                    "endColumn": 65,
+                    "endOffset": 176
+                },
+                "from": {
+                    "file": "D:\\android\\studio_work\\Seller\\Library\\Libs\\HListView\\src\\main\\res\\values\\hlv_attrs.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 1,
+                        "startOffset": 234,
+                        "endColumn": 63,
+                        "endOffset": 296
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 181,
+                    "endColumn": 64,
+                    "endOffset": 241
+                },
+                "from": {
+                    "file": "D:\\android\\studio_work\\Seller\\Library\\Libs\\HListView\\src\\main\\res\\values\\hlv_attrs.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 1,
+                        "startOffset": 168,
+                        "endColumn": 62,
+                        "endOffset": 229
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 246,
+                    "endColumn": 55,
+                    "endOffset": 297
+                },
+                "from": {
+                    "file": "D:\\android\\studio_work\\Seller\\Library\\Libs\\HListView\\src\\main\\res\\values\\hlv_attrs.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 1,
+                        "startOffset": 54,
+                        "endColumn": 53,
+                        "endOffset": 106
+                    }
+                }
+            }
+        ]
+    }
+]

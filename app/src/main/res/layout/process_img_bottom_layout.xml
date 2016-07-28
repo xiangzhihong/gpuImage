@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_process_photo_layout">
+
+
+    <LinearLayout
+        android:id="@+id/toolbar_area"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/bottom_layout"
+        android:layout_below="@+id/drawing_view_container"
+        android:background="@color/c7"
+        android:orientation="vertical">
+
+        <it.sephiroth.android.library.widget.HListView
+            android:id="@+id/list_tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            app:hlv_dividerWidth="8dp" />
+
+        <it.sephiroth.android.library.widget.HListView
+            android:id="@+id/list_water_mark"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:visibility="gone"
+            app:hlv_dividerWidth="8dp" />
+
+        <RelativeLayout
+            android:id="@+id/tag_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_tag_hint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:drawableBottom="@drawable/tag_line"
+                android:gravity="center"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:text="点击图片任何位置，设定标签位置"
+                android:textColor="@color/c6"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_tag_hint"
+                android:layout_alignRight="@+id/tv_tag_hint"
+                android:layout_below="@+id/tv_tag_hint"
+                android:scaleType="fitXY" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/c7">
+
+        <ImageView
+            android:id="@+id/indicator"
+            android:layout_width="16dp"
+            android:layout_height="6dp"
+            android:src="@drawable/ic_up_arr" />
+
+        <com.xzh.gpuimage_master.view.BottomTabView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/indicator"
+            android:background="@color/c9" />
+    </RelativeLayout>
+</merge>

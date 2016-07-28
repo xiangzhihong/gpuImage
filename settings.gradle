@@ -1,0 +1,4 @@
+include ':app',':GpuImage',':ImageViewTouch',':HListView'
+project(':GpuImage').projectDir = new File('Library/GpuImage')
+project(':ImageViewTouch').projectDir = new File('Library/ImageViewTouch')
+project(':HListView').projectDir = new File('Library/HListView')

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/c12"
+    android:paddingBottom="5dp"
+    android:paddingTop="5dp"
+    >
+
+    <ImageView
+        android:id="@+id/iv_small_pic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="13dp"
+        android:scaleType="fitXY"
+        />
+
+    <TextView
+        android:layout_toLeftOf="@+id/arr_right"
+        android:id="@+id/tv_album_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv_small_pic"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/iv_small_pic"
+        android:maxWidth="200dp"
+        android:singleLine="true"
+        android:text="相册名"
+        android:textColor="@color/c6"
+        android:textSize="18sp" />
+
+    <TextView
+        android:textSize="14sp"
+        android:id="@+id/tv_pic_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_album_name"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@+id/iv_small_pic"
+        android:singleLine="true"
+        android:text="66"
+        android:textColor="@color/c6" />
+
+    <ImageView
+        android:id="@+id/arr_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/right_arrow_icon" />
+
+</RelativeLayout>

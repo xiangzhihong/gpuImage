@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CommonDiaryActionBar">
+        <attr name="title_name" format="reference|string" />
+        <attr name="cancel_name" format="reference|string" />
+        <attr name="confirm_name" format="reference|string" />
+    </declare-styleable>
+
+
+</resources>

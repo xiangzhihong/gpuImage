@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="21.0.3$Generated" generated="true"><source path="D:\android\studio_work\GpuImage-master\Library\HListView\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\res"/></dataSet><dataSet config="main$Generated" generated="true"><source path="D:\android\studio_work\GpuImage-master\Library\HListView\src\main\res"/><source path="D:\android\studio_work\GpuImage-master\Library\HListView\build\generated\res\rs\release"/><source path="D:\android\studio_work\GpuImage-master\Library\HListView\build\generated\res\resValues\release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="D:\android\studio_work\GpuImage-master\Library\HListView\src\release\res"/></dataSet><dataSet config="21.0.3" from-dependency="true" generated-set="21.0.3$Generated"><source path="D:\android\studio_work\GpuImage-master\Library\HListView\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="D:\android\studio_work\GpuImage-master\Library\HListView\src\main\res"><file path="D:\android\studio_work\GpuImage-master\Library\HListView\src\main\res\values\hlv_attrs.xml" qualifiers=""><attr format="reference" name="hlv_expandableListViewStyle"/><attr format="dimension" name="hlv_listPreferredItemWidth"/><declare-styleable name="HListView">
+		<attr name="android:entries"/>
+		<attr name="android:divider"/>
+		<attr format="dimension" name="hlv_dividerWidth"/>
+		<attr format="boolean" name="hlv_headerDividersEnabled"/>
+		<attr format="boolean" name="hlv_footerDividersEnabled"/>
+		<attr format="reference|color" name="hlv_overScrollHeader"/>
+		<attr format="reference|color" name="hlv_overScrollFooter"/>
+
+		<!--
+		When "wrap_content" is used as value of the layout_height property.
+		Pass the position, inside the adapter, of the view being used to measure the view
+		or '-1' to use the default behavior ( default is -1 )
+		-->
+		<attr format="integer" name="hlv_measureWithChild"/>
+	</declare-styleable><declare-styleable name="AbsHListView">
+		<attr name="android:listSelector"/>
+		<attr name="android:smoothScrollbar"/>
+		<attr name="android:drawSelectorOnTop"/>
+		<attr name="android:cacheColorHint"/>
+		<attr name="android:scrollingCache"/>
+		<attr name="android:choiceMode"/>
+
+		<attr format="boolean" name="hlv_stackFromRight"/>
+		<attr name="hlv_transcriptMode">
+			<enum name="disabled" value="0"/>
+			<enum name="normal" value="1"/>
+			<enum name="alwaysScroll" value="2"/>
+		</attr>
+
+	</declare-styleable><declare-styleable name="ExpandableHListView">
+
+		<attr name="hlv_indicatorGravity">
+			<flag name="top" value="0x30"/>
+			<flag name="bottom" value="0x50"/>
+			<flag name="left" value="0x03"/>
+			<flag name="right" value="0x05"/>
+			<flag name="center_vertical" value="0x10"/>
+			<flag name="fill_vertical" value="0x70"/>
+			<flag name="center_horizontal" value="0x01"/>
+			<flag name="fill_horizontal" value="0x07"/>
+			<flag name="center" value="0x11"/>
+			<flag name="fill" value="0x77"/>
+			<flag name="clip_vertical" value="0x80"/>
+			<flag name="clip_horizontal" value="0x08"/>
+			<flag name="start" value="0x00800003"/>
+			<flag name="end" value="0x00800005"/>
+		</attr>
+
+		<attr name="hlv_childIndicatorGravity">
+			<flag name="top" value="0x30"/>
+			<flag name="bottom" value="0x50"/>
+			<flag name="left" value="0x03"/>
+			<flag name="right" value="0x05"/>
+			<flag name="center_vertical" value="0x10"/>
+			<flag name="fill_vertical" value="0x70"/>
+			<flag name="center_horizontal" value="0x01"/>
+			<flag name="fill_horizontal" value="0x07"/>
+			<flag name="center" value="0x11"/>
+			<flag name="fill" value="0x77"/>
+			<flag name="clip_vertical" value="0x80"/>
+			<flag name="clip_horizontal" value="0x08"/>
+			<flag name="start" value="0x00800003"/>
+			<flag name="end" value="0x00800005"/>
+		</attr>
+
+		<attr format="reference|color" name="hlv_childDivider"/>
+		<attr format="reference" name="hlv_groupIndicator"/>
+		<attr format="reference" name="hlv_childIndicator"/>
+
+		<!-- after gravity for the indicator has been set -->
+		<!-- a custom padding can be set -->
+		<attr format="dimension" name="hlv_indicatorPaddingLeft"/>
+		<attr format="dimension" name="hlv_indicatorPaddingTop"/>
+
+		<!-- after gravity for the child indicator has been set -->
+		<!-- a custom padding can be set -->
+		<attr format="dimension" name="hlv_childIndicatorPaddingLeft"/>
+		<attr format="dimension" name="hlv_childIndicatorPaddingTop"/>
+	</declare-styleable><attr format="reference" name="hlv_listViewStyle"/><attr format="reference" name="hlv_absHListViewStyle"/></file></source><source path="D:\android\studio_work\GpuImage-master\Library\HListView\build\generated\res\rs\release"/><source path="D:\android\studio_work\GpuImage-master\Library\HListView\build\generated\res\resValues\release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="D:\android\studio_work\GpuImage-master\Library\HListView\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="AbsHListView"><attr name="android:listSelector"/><attr name="android:smoothScrollbar"/><attr name="android:drawSelectorOnTop"/><attr name="android:cacheColorHint"/><attr name="android:scrollingCache"/><attr name="android:choiceMode"/><attr format="boolean" name="hlv_stackFromRight"/><attr name="hlv_transcriptMode"><enum name="disabled" value="0"/><enum name="normal" value="1"/><enum name="alwaysScroll" value="2"/></attr></declare-styleable><declare-styleable name="HListView"><attr name="android:entries"/><attr name="android:divider"/><attr format="dimension" name="hlv_dividerWidth"/><attr format="boolean" name="hlv_headerDividersEnabled"/><attr format="boolean" name="hlv_footerDividersEnabled"/><attr format="reference|color" name="hlv_overScrollHeader"/><attr format="reference|color" name="hlv_overScrollFooter"/><attr format="integer" name="hlv_measureWithChild"/></declare-styleable><declare-styleable name="ExpandableHListView"><attr name="hlv_indicatorGravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr><attr name="hlv_childIndicatorGravity"><flag name="top" value="0x30"/><flag name="bottom" value="0x50"/><flag name="left" value="0x03"/><flag name="right" value="0x05"/><flag name="center_vertical" value="0x10"/><flag name="fill_vertical" value="0x70"/><flag name="center_horizontal" value="0x01"/><flag name="fill_horizontal" value="0x07"/><flag name="center" value="0x11"/><flag name="fill" value="0x77"/><flag name="clip_vertical" value="0x80"/><flag name="clip_horizontal" value="0x08"/><flag name="start" value="0x00800003"/><flag name="end" value="0x00800005"/></attr><attr format="reference|color" name="hlv_childDivider"/><attr format="reference" name="hlv_groupIndicator"/><attr format="reference" name="hlv_childIndicator"/><attr format="dimension" name="hlv_indicatorPaddingLeft"/><attr format="dimension" name="hlv_indicatorPaddingTop"/><attr format="dimension" name="hlv_childIndicatorPaddingLeft"/><attr format="dimension" name="hlv_childIndicatorPaddingTop"/></declare-styleable></configuration></mergedItems></merger>

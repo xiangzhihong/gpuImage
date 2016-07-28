@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GpuImage-master</string>
+    <string name="add_tag_hint_has">点击图片任何位置，继续添加标签。\n点击标签分类修改内容。\n点击圆心切换标签显示方式。</string>
+    <string name="add_tag_hint">点击图片任何位置，设定标签位置。</string>
+</resources>
